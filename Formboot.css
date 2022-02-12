@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgba(228, 228, 228, 0.555);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .row .c1 {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  width: 95%;
+}
+
+.container .row .c1 .col-md-4 {
+  background-color: rgba(238, 238, 238, 0.74);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 30px;
+  width: 32%;
+}
+
+.container .row .c1 .col-md-4:hover {
+  background-color: #1d53e7;
+}
+
+.container .row .c1 .col-md-4:hover i {
+  color: white !important;
+}
+
+.container .row .c1 .col-md-4 i {
+  color: #535353;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  font-size: 45px;
+  margin: 4px;
+}
+
+.container .row form label {
+  font-size: 23px;
+}
+
+.container .row form input {
+  color: grey;
+  border-radius: 3px;
+  border: 1px solid grey;
+  margin: 10px;
+  height: 40px;
+}
+
+.container .row form div {
+  margin: 10px;
+  padding: 20px;
+  background: #e2e2e2;
+}
+
+.container .row form div button {
+  color: white;
+  background: #1d53e7;
+  border-radius: 6px;
+  border: none;
+  height: 40px;
+  margin: 5px;
+}
+/*# sourceMappingURL=Formboot.css.map */
